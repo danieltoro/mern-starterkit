@@ -29,3 +29,5 @@ package-lockdatabase.json
 yarn.lock
 package-lock.json
 .idea/
+
+.env

@@ -4,16 +4,26 @@
   "description": "One Paragraph of project description goes here",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danieltoro/mern-starterkit.git"
   },
-  "author": "Daniel Toro",
+  "author": {
+    "name": "Daniel Toro",
+    "email": "d.toro@outlook.com",
+    "url": "http:/danieltoro.cl"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/danieltoro/mern-starterkit/issues"
   },
-  "homepage": "https://github.com/danieltoro/mern-starterkit#readme"
+  "homepage": "https://github.com/danieltoro/mern-starterkit#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-react": "^7.10.0"
+  }
 }
