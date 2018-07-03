@@ -9,17 +9,13 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
+// Import Root Component
+import App from './App';
+
 // DOM
 const rootElement = document.getElementById('root');
 
-class App extends Component {
-  render() {
-    return (
-      <h1>Hola Mundo!</h1>
-    )
-  }
-}
-
+// Rendering App
 render(
   <App/>,
   rootElement
