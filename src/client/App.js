@@ -8,11 +8,13 @@
 
 import React, { Component } from 'react';
 
+import bgImg from './img/light.jpg';
+
 class App extends Component {
   render() {
     return (
       <div className="uk-position-relative">
-        <img src="../docs/images/light.jpg" alt="" />
+        <img src={bgImg} alt="" />
           <div className="uk-position-top">
             <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="true">
               <div className="uk-navbar-left">
