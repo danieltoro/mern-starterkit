@@ -6,7 +6,7 @@
 *
 */
 
-import React, { Component } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 
 // Import Root Component
@@ -17,7 +17,7 @@ const rootElement = document.getElementById('root');
 
 // Rendering App
 render(
-  <App/>,
+  <App />,
   rootElement
 );
 
