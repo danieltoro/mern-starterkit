@@ -31,3 +31,5 @@ package-lock.json
 .idea/
 
 .env
+
+src/server/public/bundle.js
